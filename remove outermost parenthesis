@@ -1,0 +1,12 @@
+REMOVE OUTERMOST PARENTHESIS:
+
+n=input()
+c,s=0,0
+for i in range(len(n)):
+    if(n[i]=='(' and n[i+1]==')'):
+        c=c+1
+print('()'*c)
+ output:
+(()())(())
+()()()
+> 
