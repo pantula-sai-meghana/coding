@@ -1,0 +1,32 @@
+OCCURENCES OF DIGITS IN A RANGE
+n=int(input())
+m=int(input())
+k=int(input())
+c=0
+while(n<=m):
+    t=n
+    print(n)
+    while(t>0):
+        if(t%10==k):
+            c=c+1
+        t=t//10
+    n=n+1
+print("c=",c)
+    
+OUTPUT:
+55
+65
+5
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+c= 7
+> 
