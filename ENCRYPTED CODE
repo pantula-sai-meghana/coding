@@ -1,0 +1,14 @@
+ENCRYPTED CODE
+s=int(input())
+n=int(input())
+m=int(input())
+k=pow(s,n)%10
+p=pow(k,m)%1000000007
+print(p)
+
+OUTPUT:
+2
+3
+4
+4096
+> 
