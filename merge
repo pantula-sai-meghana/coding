@@ -1,0 +1,19 @@
+Merge
+l=list(map(int,input().split()))
+l1=list(map(int,input().split()))
+k=l+l1
+c=0
+p=sorted(k)
+for i in range(len(p)):
+    if(p[i]==0):
+        c=c+1
+if(c>1):        
+    print(c)  
+print(p[c:])
+
+
+
+output:
+i/p:  [1 2 3 0 0 0]
+      [2 5 6]
+      o/p: [1 2 3 2 5 6]
