@@ -1,0 +1,16 @@
+m=input()
+s=''
+p=m.split('-')
+k=[]
+for i in range(len(m)):
+    if(m[i]=='-'):
+        k.append(m[i])
+l=k+p
+for i in l:
+    s=s+i
+print(s)
+
+
+output:
+Move-Hyphens-to-Front
+---MoveHyphenstoFront
