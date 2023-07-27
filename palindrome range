@@ -1,0 +1,23 @@
+n= int(input())
+m= int(input())
+for i in range(n,m+1):
+    rev= 0
+    a= i
+    while a != 0:
+        r= a % 10
+        rev= (rev * 10)+r
+        a= a// 10
+    if i == rev:
+        print(rev)
+
+output:
+10
+80
+11
+22
+33
+44
+55
+66
+77
+> 
