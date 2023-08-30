@@ -1,0 +1,23 @@
+n=input()
+k=[]
+m=[]
+q=[]
+g=[]
+p=['a','e','i','o','u']
+for i in range(len(n)):
+    if(n[i] not in p):
+        k.append(ord(n[i]))
+    else:
+        m.append(ord(n[i]))
+for i in range(len(k)):
+    q=[]
+    for j in range(len(m)):
+        h=abs(k[i]-m[j])
+        q.append(h)
+        s=min(q)
+    g.append(s)
+print(sum(g))
+
+        OUTPUT:
+STR: abcde
+o/p: 4
