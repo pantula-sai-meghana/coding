@@ -1,0 +1,12 @@
+n=int(input())
+h=bin(n)[2:][::-1]
+print(h)
+d=int(h,2)
+print(d)
+
+# example:
+#     n=10
+#     1010
+#     reverse of 10==0101===5
+#     5 is the answer
+#     thi is call as toggling
