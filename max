@@ -1,0 +1,32 @@
+n=list(map(int,input().split()))
+t=0
+t=[]
+p=[]
+k=len(n)
+for i in range(0,len(n)):
+    for j in range(i+1,len(n)):
+        if(n[i]>n[j]):
+            t=n[i]
+            n[i]=n[j]
+            n[j]=t
+    p.append(n[i])
+print("p===",p)
+for i in range(k):
+        h=p[i+1:]
+        print(h)
+        break
+u=max(h)
+print(u)
+
+???????/////////
+n=list(map(int,input().split()))
+t=0
+y=[]
+k=len(n)
+for i in range(k):
+        h=n[i+1:]
+        print(h)
+        break
+print(h)
+            
+    
